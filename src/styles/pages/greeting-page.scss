@@ -7,6 +7,7 @@
 }
 
 .popular-currencies{
+	padding: 15px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -15,3 +16,13 @@
 	padding: 15px;
 }
 
+.currency-select{
+	width: 50%;
+	min-width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.select{
+	width: 60%;
+}

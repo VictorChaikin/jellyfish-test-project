@@ -1,121 +1,104 @@
 [
   {
-	"value": "1",
+  "label": "Euro",
+  "shortHand": "EUR"
+},
+  {
 	"label": "United States Dollar",
 	"shortHand": "USD"
   },
   {
-	"value": "26.352511",
 	"label": "Ukrainian Hryvnia",
 	"shortHand": "UAH"
   },
   {
-	"value": "0.791155",
 	"label": "British Pound Sterling",
 	"shortHand": "GBP"
   },
   {
-	"value": "64.6885",
 	"label": "Russian Ruble",
 	"shortHand": "RUB"
   
   },
   {
-	"value": "1.454157",
 	"label": "Australian Dollar",
 	"shortHand": "AUD"
   
   },
   {
-	"value": "378.334562",
 	"label": "Kazakhstani Tenge",
 	"shortHand": "KZT"
   
   },
   {
-	"value": "900",
 	"label": "North Korean Won",
 	"shortHand": "KPW"
   
   },
   {
-	"value": "7.848645",
 	"label": "Hong Kong Dollar",
 	"shortHand": "HKD"
   },
   {
-	"value": "0.376957",
 	"label": "Bahraini Dinar",
 	"shortHand": "BHD"
   
   },
   {
-	"value": "110.0995",
 	"label": "Japanese Yen",
 	"shortHand": "JPY"
   
   },
   {
-	"value": "8.749382",
 	"label": "Norwegian Krone",
 	"shortHand": "NOK"
   
   },
   {
-	"value": "293.509087",
 	"label": "Hungarian Forint",
 	"shortHand": "HUF"
   
   },
   {
-	"value": "1.875075",
 	"label": "Netherlands Antillean Guilder",
 	"shortHand": "ANG"
   
   },
   {
-	"value": "0.833307",
 	"label": "Cayman Islands Dollar",
 	"shortHand": "KYD"
   
   },
   {
-	"value": "6.704911",
 	"label": "Danish Krone",
 	"shortHand": "DKK"
   },
   {
-	"value": "3335.161283",
 	"label": "Colombian Peso",
 	"shortHand": "COP"
   
   },
   {
-	"value": "69.956645",
 	"label": "Indian Rupee",
 	"shortHand": "INR"
   
   },
   {
-	"value": "6.919",
 	"label": "Chinese Yuan",
 	"shortHand": "CNY"
   
   },
   {
-	"value": "1.381461",
 	"label": "Singapore Dollar",
 	"shortHand":  "SGD"
   
   },
   {
-	"value": "19.023928",
 	"label": "Mexican Peso",
 	"shortHand": "MXN"
   },
   {
-	"value": "3.673438",
-	"label": "United Arab Emivalues Dirham",
+	"label": "United Arab Emirates Dirham",
 	"shortHand":   "AED"
   }
 ]
