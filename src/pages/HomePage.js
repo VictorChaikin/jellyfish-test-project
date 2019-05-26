@@ -6,14 +6,18 @@ class HomePage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: ''
+      name: sessionStorage.getItem('name')
     };
+  }
+
+  static takeToGreetingPage() {
+    window.location = '/greeting';
   }
 
   onEnterHandle = event => {
     if (event.which === 13) {
       this.props.saveName(this.state.name);
-      localStorage.setItem('name', event.target.value);
+      sessionStorage.setItem('name', event.target.value);
       window.location = '/greeting';
     }
   };
@@ -21,10 +25,12 @@ class HomePage extends Component {
   render() {
     return (
         <div className="page">
+          {this.state.name !== null && HomePage.takeToGreetingPage()}
           <div className="input-popup">
             <input type="text"
                    value={this.state.name}
                    className="name-input"
+                   maxLength="15"
                    placeholder="Enter your name..."
                    onKeyUp={this.onEnterHandle}
                    onChange={e => this.setState({ name: e.target.value })} />

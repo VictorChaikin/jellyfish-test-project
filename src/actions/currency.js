@@ -9,4 +9,8 @@ export function bitCoinValue(currency) {
         data: data.last,
         currency
       }))
+      .catch(() => dispatch({
+        type: GET_BITCOIN_VALUE,
+        error: true
+      }))
 }

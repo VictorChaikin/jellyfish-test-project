@@ -9,7 +9,7 @@ class GreetingPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: localStorage.getItem('name'),
+      name: sessionStorage.getItem('name'),
       currency: ''
     };
   }
@@ -61,6 +61,7 @@ class GreetingPage extends Component {
             <div className="padding currency-select">
               <Select className="select"
                       options={currencies}
+                      defaultValue={currencies[0]}
                       onChange={option => this.setState({ currency: option })} />
               <Link to="/convert">
                 <button className="btn btn-primary"
