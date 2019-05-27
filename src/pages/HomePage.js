@@ -6,8 +6,12 @@ class HomePage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: sessionStorage.getItem('name')
+      name: null
     };
+  }
+
+  componentDidMount() {
+    this.setState({ name: sessionStorage.getItem('name') });
   }
 
   static takeToGreetingPage() {
@@ -25,7 +29,7 @@ class HomePage extends Component {
   render() {
     return (
         <div className="page">
-          {this.state.name !== null && HomePage.takeToGreetingPage()}
+          {sessionStorage.getItem('name') !== null && HomePage.takeToGreetingPage()}
           <div className="input-popup">
             <input type="text"
                    value={this.state.name}
