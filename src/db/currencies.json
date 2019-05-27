@@ -1,0 +1,104 @@
+[
+  {
+  "label": "Euro",
+  "shortHand": "EUR"
+},
+  {
+	"label": "United States Dollar",
+	"shortHand": "USD"
+  },
+  {
+	"label": "Ukrainian Hryvnia",
+	"shortHand": "UAH"
+  },
+  {
+	"label": "British Pound Sterling",
+	"shortHand": "GBP"
+  },
+  {
+	"label": "Russian Ruble",
+	"shortHand": "RUB"
+  
+  },
+  {
+	"label": "Australian Dollar",
+	"shortHand": "AUD"
+  
+  },
+  {
+	"label": "Kazakhstani Tenge",
+	"shortHand": "KZT"
+  
+  },
+  {
+	"label": "North Korean Won",
+	"shortHand": "KPW"
+  
+  },
+  {
+	"label": "Hong Kong Dollar",
+	"shortHand": "HKD"
+  },
+  {
+	"label": "Bahraini Dinar",
+	"shortHand": "BHD"
+  
+  },
+  {
+	"label": "Japanese Yen",
+	"shortHand": "JPY"
+  
+  },
+  {
+	"label": "Norwegian Krone",
+	"shortHand": "NOK"
+  
+  },
+  {
+	"label": "Hungarian Forint",
+	"shortHand": "HUF"
+  
+  },
+  {
+	"label": "Netherlands Antillean Guilder",
+	"shortHand": "ANG"
+  
+  },
+  {
+	"label": "Cayman Islands Dollar",
+	"shortHand": "KYD"
+  
+  },
+  {
+	"label": "Danish Krone",
+	"shortHand": "DKK"
+  },
+  {
+	"label": "Colombian Peso",
+	"shortHand": "COP"
+  
+  },
+  {
+	"label": "Indian Rupee",
+	"shortHand": "INR"
+  
+  },
+  {
+	"label": "Chinese Yuan",
+	"shortHand": "CNY"
+  
+  },
+  {
+	"label": "Singapore Dollar",
+	"shortHand":  "SGD"
+  
+  },
+  {
+	"label": "Mexican Peso",
+	"shortHand": "MXN"
+  },
+  {
+	"label": "United Arab Emirates Dirham",
+	"shortHand":   "AED"
+  }
+]

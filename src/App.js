@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import './styles/main.scss';
-// import { Route, Redirect, Switch } from 'react-router';
+import { Route, Redirect, Switch } from 'react-router';
+import HomePage from './pages/HomePage';
+import GreetingPage from './pages/GreetingPage';
+import ConvertPage from './pages/ConvertPage';
 
 class App extends Component {
+
   render() {
+
     return (
-        <div className="App">
-          Hello React
-          {/*<Switch>*/}
-          {/*  */}
-          {/*</Switch>*/}
-        </div>
+        <Switch>
+          <Route exact path="/home" component={HomePage} />
+          <Route exact path="/greeting" component={GreetingPage} />
+          <Route exact path="/convert" component={ConvertPage} />
+         <Redirect to="/home" />
+        </Switch>
     );
   }
 }

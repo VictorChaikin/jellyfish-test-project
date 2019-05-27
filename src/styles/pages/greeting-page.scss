@@ -1,0 +1,28 @@
+.popup{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	align-items: center;
+	text-align: center;
+}
+
+.popular-currencies{
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.padding{
+	padding: 15px;
+}
+
+.currency-select{
+	width: 50%;
+	min-width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.select{
+	width: 60%;
+}
